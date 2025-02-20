@@ -1,8 +1,8 @@
 # FILE NAME: cyber_suite_new_user.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME:  Daniel Stiglitz
+# DATE: 2/20/25
+# BRIEF DESCRIPTION:  New User for cyber suite
 
 
 
@@ -23,6 +23,14 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
+name=input('Please Enter Your Name:')
+user=input('Please Enter Your User ID:')
+password=input('Please Enter Your Password:')
+
+print('Welcome,',name,'Your user ID is:', user, )
+print()
+print('Password:')
+print(password)
 
 
 
