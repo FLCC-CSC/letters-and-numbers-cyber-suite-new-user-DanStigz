@@ -25,11 +25,12 @@
 name = input("Please enter your name: ")
 user_id = input("Please enter your user id: ")
 password = input("Please enter your password: ")
+masked_password = 'X' * len(password)
 
 print(f"\nWelcome, {name}. Your ID is {user_id}.")
 print("\nPASSWORD:")
 
-masked_password = 'X' * len(password)
+
 print(masked_password)
 
 
