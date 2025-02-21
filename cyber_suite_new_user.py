@@ -27,10 +27,7 @@ user_id = input("Please enter your user id: ")
 password = input("Please enter your password: ")
 masked_password = 'X' * len(password)
 
-print(f"\nWelcome, {name}. Your ID is {user_id}.")
-print("\nPASSWORD:")
-print(masked_password)
-
+print(f"Welcome, {name}. Your ID is {user_id}.\n\nPASSWORD:\n{masked_password}")
 
 
 ########### END YER CODE ABOVE THIS LINE ###########
