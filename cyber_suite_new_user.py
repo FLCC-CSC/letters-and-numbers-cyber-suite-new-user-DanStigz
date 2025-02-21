@@ -23,12 +23,12 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
-name=input('Please Enter Your Name:')
-user=input('Please Enter Your User ID:')
-password=input('Please Enter Your Password:')
+name=input('Please enter your name:')
+user=input('Please enter your user id:')
+password=input('Please enter your password:')
 hidden_password = 'X' * len(password)
 
-print('Welcome,',name,'Your user ID is:', user, )
+print('Welcome,',name,'Your user id is:', user, )
 print()
 print('Password:')
 print(hidden_password)
