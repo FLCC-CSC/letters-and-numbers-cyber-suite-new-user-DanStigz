@@ -26,12 +26,12 @@
 name=input('Please Enter Your Name:')
 user=input('Please Enter Your User ID:')
 password=input('Please Enter Your Password:')
+hidden_password = 'X' * len(password)
 
 print('Welcome,',name,'Your user ID is:', user, )
 print()
 print('Password:')
-print(password)
-
+print(hidden_password)
 
 
 
