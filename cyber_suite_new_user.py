@@ -29,10 +29,7 @@ masked_password = 'X' * len(password)
 
 print(f"\nWelcome, {name}. Your ID is {user_id}.")
 print("\nPASSWORD:")
-
-
 print(masked_password)
-
 
 
 
