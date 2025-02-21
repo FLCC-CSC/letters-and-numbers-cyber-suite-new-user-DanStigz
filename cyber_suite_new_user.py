@@ -22,18 +22,15 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-name=input('Please enter your name: ')
-user=input('Please enter your user id: ')
-password=input('Please enter your password: ')
-hidden_password = 'X' * len(password)
+name = input("Please enter your name: ")
+user_id = input("Please enter your user id: ")
+password = input("Please enter your password: ")
 
-print()
-print(f"Welcome, {name}. Your ID is {user}.")
-print()
-print('Password:')
-print(hidden_password)
+print(f"\nWelcome, {name}. Your ID is {user_id}.")
+print("\nPASSWORD:")
 
-
+masked_password = 'X' * len(password)
+print(masked_password)
 
 
 
