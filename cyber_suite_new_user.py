@@ -27,7 +27,10 @@ user_id = input("Please enter your user id: ")
 password = input("Please enter your password: ")
 
 print(f"\nWelcome, {name}. Your ID is {user_id}.")
-print("\nPASSWORD:")
+print("\nPASSWORD: ")
+
+# DRG - Added space after colon on line 30 and pushed 2025-02-23-1114
+
 print("X" * len(password))  
 ########### END YER CODE ABOVE THIS LINE ###########
     
